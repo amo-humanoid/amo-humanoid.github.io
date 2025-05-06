@@ -92,7 +92,7 @@
               <a href="https://chengxuxin.github.io/">Xuxin Cheng*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="">Tianshu Huang*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://aaronyang1223.github.io/">Shiqi Yang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="https://https://rogerqi.github.io//~shayi/">Roger Qiu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://https://rogerqi.github.io/">Roger Qiu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://xiaolonw.github.io/">Xiaolong Wang</a>
               <br><br>
               <img src="./resources/UCSanDiegoLogo-BlueGold.png" width="20%" style="margin: 0 auto;"></img> <br><br>
@@ -153,7 +153,7 @@
               </span>
 
               <span class="link-block">
-                <a href="" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                <a href="https://github.com/OpenTeleVision/AMO" class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                     <i class="fab fa-github"></i>
                   </span>
@@ -244,6 +244,17 @@
               <br>
               <div class="row">
                 <div class="col">
+                    <video playsinline autoplay loop muted controls src="./resources/clips/teleop/counter-comp.mp4" width="100%"
+                           style="border-radius:10px; "></video>
+                </div>
+                <div class="col">
+                  <video playsinline autoplay loop muted controls src="./resources/clips/teleop/restroom-comp.mp4" width="100%"
+                         style="border-radius:10px; "></video>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
                     <video playsinline autoplay loop muted controls src="./resources/clips/teleop/dishwasher2-comp.mp4" width="100%"
                            style="border-radius:10px; "></video>
                 </div>
@@ -254,17 +265,53 @@
               </div>
               <br>
               <div class="row">
-                <div class="col">
-                    <video playsinline autoplay loop muted controls src="./resources/clips/teleop/counter-comp.mp4" width="100%"
+                <div class="col-12">
+                    <video playsinline autoplay loop muted controls src="./resources/clips/teleop/sbs-comp.mp4" width="100%"
                            style="border-radius:10px; "></video>
-                </div>
-                <div class="col">
-                  <video playsinline autoplay loop muted controls src="./resources/clips/teleop/restroom-comp.mp4" width="100%"
-                         style="border-radius:10px; "></video>
+                    <p style="text-align: center;"> Our teleoperation interface provides intuitive whole-body teleop for high-DoF robot control</p>
                 </div>
               </div>
               <br>
               <br>
+            </td>
+          </tr>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-2" style="text-align: center; padding-bottom: 10px;">AMO performance in MuJoCo</h2>
+          <tr>
+            <td>
+              <div class="row">
+                <div class="col">
+                    <video autoplay muted loop playsinline controls src="./resources/clips/sim/sim-rpyh-comp.mp4" width="100%"
+                           style="border-radius:10px; "></video>
+
+                </div>
+                <div class="col">
+                  <video autoplay muted loop playsinline controls src="./resources/clips/sim/sim-walk-rp-comp.mp4" width="100%"
+                         style="border-radius:10px; "></video>
+
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                    <video autoplay muted loop playsinline controls src="./resources/clips/sim/sim-walk-h-comp.mp4" width="100%"
+                           style="border-radius:10px; "></video>
+
+                </div>
+                <div class="col">
+                  <video autoplay muted loop playsinline controls src="./resources/clips/sim/sim-walk-comp.mp4" width="100%"
+                         style="border-radius:10px; "></video>
+
+                </div>
+              </div>
             </td>
           </tr>
         </div> 
@@ -307,7 +354,7 @@
         <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Humanoid robots derive much of their dexterity from hyper-dexterous whole-body movements, enabling tasks that require a large operational workspace—such as picking objects off the ground. However, achieving these capabilities on real humanoids remains challenging due to their high degrees of freedom (DoF) and nonlinear dynamics. We propose Adaptive Motion Optimization (AMO), a framework that integrates sim-to-real reinforcement learning (RL) with trajectory optimization for real-time, adaptive whole-body control. To mitigate distribution bias in motion imitation RL, we construct a hybrid AMO dataset and train a network capable of robust, on-demand adaptation to potentially O.O.D. commands. We validate AMO in simulation and on a 29-DoF Unitree G1 humanoid robot, demonstrating superior stability and an expanded workspace compared to strong baselines. Finally, we show that AMO’s consistent performance supports autonomous task execution via imitation learning, underscoring the system’s versatility and robustness.
+            Humanoid robots derive much of their dexterity from hyper-dexterous whole-body movements, enabling tasks that require a large operational workspace—such as picking objects off the ground. However, achieving these capabilities on real humanoids remains challenging due to their high degrees of freedom (DoF) and nonlinear dynamics. We propose Adaptive Motion Optimization (AMO), a framework that integrates sim-to-real reinforcement learning (RL) with trajectory optimization for real-time, adaptive whole-body control. To mitigate distribution bias in motion imitation RL, we construct a hybrid AMO dataset and train a network capable of robust, on-demand adaptation to potentially O.O.D. commands. We validate AMO in simulation and on a 29-DoF Unitree G1 humanoid robot, demonstrating superior stability and an expanded workspace compared to strong baselines. Finally, we show that AMO's consistent performance supports autonomous task execution via imitation learning, underscoring the system's versatility and robustness.
           </p>
         </div>
       </div>
