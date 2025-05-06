@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-EP4VHJ524E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EP4VHJ524E');
+  </script> -->
+
+  <meta charset="utf-8">
+  <meta name="description" content="PMP">
+  <meta name="keywords" content="Humanoid robot">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UCSD AMO Humanoid</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <!-- <link rel="stylesheet" href="./static/css/fontawesome.all.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="./static/js/ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.min.js"></script>
+  <script src="./static/js/isInViewport.min.js"></script>
+  <!-- <script defer src="./static/js/fontawesome.all.min.js"></script> -->
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <link rel="icon" href="./resources/favicon.ico">
+  
+  <script src="https://kit.fontawesome.com/006a5775d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="">
+        <span class="icon">
+            <i class="fas fa-home"></i>
+        </span>
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Related Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://exbody2.github.io/">
+              Expressive Humanoid
+            </a>
+            <a class="navbar-item" href="https://robot-tv.github.io">
+              Open-TeleVision
+            </a>
+            <a class="navbar-item" href="https://mobile-tv.github.io">
+              Predictive Motion Priors for Humanoid Whole-Body Control
+            </a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </nav>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+             <span style="font-weight: normal;"><bold><b>AMO</b></bold>: <br/><bold><b>A</b>daptive</bold> <b>M</b>otion <b>O</b>ptimization for Hyper-Dexterous Humanoid Whole-Body Control <br>
+             <!-- <h3 style="font-weight: normal;"> with <img src="resources/logo-192x192.png" alt="Logo" style="vertical-align: text-top;" width="35"><b><a href="https://robot-tv.github.io">TeleVision</a></b></h3> -->
+          </h1>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block">
+              <a href="https://rexskywalkerlee.github.io/">Jialong Li*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://chengxuxin.github.io/">Xuxin Cheng*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="">Tianshu Huang*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://aaronyang1223.github.io/">Shiqi Yang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://https://rogerqi.github.io//~shayi/">Roger Qiu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://xiaolonw.github.io/">Xiaolong Wang</a>
+              <br><br>
+              <img src="./resources/UCSanDiegoLogo-BlueGold.png" width="20%" style="margin: 0 auto;"></img> <br><br>
+            </span>
+            <span class="brmod">RSS 2025</span><br>
+          </div>
+          
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="./resources/amo.pdf" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>1x Videos</span>
+                </a>
+              </span> -->
+
+              <!-- <span class="link-block">
+                <a href=""
+                    class="external-link button is-normal is-rounded is-dark" target="_blank">
+                    <span class="icon">
+                      <i class="fab fa-bilibili"></i>
+                    </span>
+                    <span>Bilibili</span>
+                </a>
+              </span> -->
+              
+              <span class="link-block">
+                <a href="" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fa-brands fa-x-twitter"></i>
+                  </span>
+                  <span>Summary</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-bottom: 0">
+  <div class="container">
+    <div id="method_video" class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds no-bottom-padding">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+          <iframe 
+            src="https://www.youtube.com/embed/zLHCaNm44Nc" 
+            title="YouTube video player" 
+            frameborder="0" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 1px solid #bbb; border-radius: 10px;" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-2" style="text-align: center; padding-bottom: 10px;">Real-World AMO Controller in Action</h2>
+          <h5 style="text-align: center; font-weight: normal;">Humanoid robots executing dexterous manipulation with expanded workspace via a teleoperation interface. (Played in 3x) </h5>
+          <br>
+          <tr>
+            <td>
+              <div class="row">
+                <div class="col">
+                    <video autoplay muted loop playsinline controls src="./resources/clips/teleop/ground-toy-comp.mp4" width="100%"
+                           style="border-radius:10px; "></video>
+                           
+                </div>
+                <div class="col">
+                  <video autoplay muted loop playsinline controls src="./resources/clips/teleop/dishwasher1-comp.mp4" width="100%"
+                         style="border-radius:10px; "></video>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                    <video autoplay muted loop playsinline controls src="./resources/clips/teleop/shoe rack-comp.mp4" width="100%"
+                           style="border-radius:10px; "></video>
+                </div>
+                <div class="col">
+                  <video autoplay muted loop playsinline controls src="./resources/clips/teleop/mail-comp.mp4" width="100%"
+                         style="border-radius:10px; "></video>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                    <video playsinline autoplay loop muted controls src="./resources/clips/teleop/pillow-comp.mp4" width="100%"
+                           style="border-radius:10px; "></video>
+                </div>
+                <div class="col">
+                  <video playsinline autoplay loop muted controls src="./resources/clips/teleop/couch toy-comp.mp4" width="100%"
+                         style="border-radius:10px; "></video>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                    <video playsinline autoplay loop muted controls src="./resources/clips/teleop/toilet-comp.mp4" width="100%"
+                           style="border-radius:10px; "></video>
+                </div>
+                <div class="col">
+                  <video playsinline autoplay loop muted controls src="./resources/clips/teleop/fridge-comp.mp4" width="100%"
+                         style="border-radius:10px; "></video>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                    <video playsinline autoplay loop muted controls src="./resources/clips/teleop/dishwasher2-comp.mp4" width="100%"
+                           style="border-radius:10px; "></video>
+                </div>
+                <div class="col">
+                  <video playsinline autoplay loop muted controls src="./resources/clips/teleop/sink-comp.mp4" width="100%"
+                         style="border-radius:10px; "></video>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                    <video playsinline autoplay loop muted controls src="./resources/clips/teleop/counter-comp.mp4" width="100%"
+                           style="border-radius:10px; "></video>
+                </div>
+                <div class="col">
+                  <video playsinline autoplay loop muted controls src="./resources/clips/teleop/restroom-comp.mp4" width="100%"
+                         style="border-radius:10px; "></video>
+                </div>
+              </div>
+              <br>
+              <br>
+            </td>
+          </tr>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-2" style="text-align: center; padding-bottom: 10px;">Autonomous Policies</h2>
+          <tr>
+            <td>
+              <div class="row">
+                <div class="col">
+                    <video autoplay muted loop playsinline controls src="./resources/clips/auto/auto1-comp.mp4" width="100%"
+                           style="border-radius:10px; "></video>
+
+                </div>
+                <div class="col">
+                  <video autoplay muted loop playsinline controls src="./resources/clips/auto/auto2-comp.mp4" width="100%"
+                         style="border-radius:10px; "></video>
+
+                </div>
+              </div>
+              
+            </td>
+          </tr>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="container">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-2">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Humanoid robots derive much of their dexterity from hyper-dexterous whole-body movements, enabling tasks that require a large operational workspace—such as picking objects off the ground. However, achieving these capabilities on real humanoids remains challenging due to their high degrees of freedom (DoF) and nonlinear dynamics. We propose Adaptive Motion Optimization (AMO), a framework that integrates sim-to-real reinforcement learning (RL) with trajectory optimization for real-time, adaptive whole-body control. To mitigate distribution bias in motion imitation RL, we construct a hybrid AMO dataset and train a network capable of robust, on-demand adaptation to potentially O.O.D. commands. We validate AMO in simulation and on a 29-DoF Unitree G1 humanoid robot, demonstrating superior stability and an expanded workspace compared to strong baselines. Finally, we show that AMO’s consistent performance supports autonomous task execution via imitation learning, underscoring the system’s versatility and robustness.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container content">
+    <h2 class="titile">BibTeX</h2>
+    <pre><code>
+@article{li2025amo,
+title={AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control},
+author={Li, Jialong and Cheng, Xuxin and Huang, Tianshu and Yang, Shiqi and Qiu, Rizhao and Wang, Xiaolong},
+journal={Robotics: Science and Systems 2025},
+year={2025}
+}
+</code></pre>
+  </div>
+</section>
+
+
+</body>
+
+<script>
+  var mainLoopId = setInterval(function(){
+        $('video').not('#teaser').each(function(){
+      if ($(this).is(":in-viewport")) {
+          $(this)[0].play();
+      } else {
+          $(this)[0].pause();
+      }
+      })
+    },200);
+</script>
+
+</html>
